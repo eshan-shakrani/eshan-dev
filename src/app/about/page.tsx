@@ -49,7 +49,7 @@ export default function AboutPage() {
               skills={[
                 { name: "SQLite", level: "advanced" },
                 { name: "PostgreSQL", level: "intermediate" },
-                { name: "Pandas / NumPy", level: "intermediate" },
+                { name: "Pandas / NumPy", level: "advanced" },
                 { name: "Data Modeling", level: "intermediate" },
               ]}
             />
@@ -78,7 +78,7 @@ export default function AboutPage() {
               skills={[
                 { name: "React", level: "beginner" },
                 { name: "Next.js", level: "beginner" },
-                { name: "Tailwind CSS", level: "intermediate" },
+                { name: "Tailwind CSS", level: "beginner" },
               ]}
             />
 
