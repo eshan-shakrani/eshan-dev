@@ -13,14 +13,18 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Background</h2>
           <div className="space-y-4 text-foreground/80">
             <p>
-              I'm a software developer with a passion for building applications
-              that are both functional and enjoyable to use. I believe in writing
-              clean, maintainable code and always learning new technologies.
+              I'm a data scientist with a strong foundation in statistical analysis,
+              machine learning, and turning raw data into actionable insights. I enjoy
+              the challenge of extracting meaning from complex datasets and communicating
+              findings through clear visualizations and dashboards.
             </p>
             <p>
-              My current focus is on full-stack development, combining Python
-              backends with modern frontend frameworks. I enjoy the entire process
-              from designing APIs to crafting user interfaces.
+              While my core strengths lie in analytics and data engineering, I'm working
+              toward becoming an all-around engineer who understands the full lifecycle
+              of data products — from data collection and pipeline development, through
+              modeling and analysis, to building the APIs and interfaces that deliver
+              insights to end users. I believe the best data professionals are those who
+              can bridge the gap between analysis and production.
             </p>
           </div>
         </section>
@@ -33,30 +37,48 @@ export default function AboutPage() {
               title="Languages"
               skills={[
                 { name: "Python", level: "advanced" },
+                { name: "SQL", level: "advanced" },
+                { name: "R", level: "advanced" },
                 { name: "JavaScript/TypeScript", level: "intermediate" },
-                { name: "SQL", level: "intermediate" },
-                { name: "HTML/CSS", level: "intermediate" },
+                { name: "HTML/CSS", level: "beginner" },
               ]}
             />
 
             <SkillCategory
-              title="Backend Development"
+              title="Data & Databases"
               skills={[
-                { name: "FastAPI", level: "advanced" },
-                { name: "REST API Design", level: "advanced" },
-                { name: "PostgreSQL", level: "intermediate" },
                 { name: "SQLite", level: "advanced" },
+                { name: "PostgreSQL", level: "intermediate" },
+                { name: "Pandas / NumPy", level: "intermediate" },
+                { name: "Data Modeling", level: "intermediate" },
+              ]}
+            />
+
+            <SkillCategory
+              title="Dashboarding & BI"
+              skills={[
+                { name: "Tableau", level: "intermediate" },
+                { name: "Looker", level: "intermediate" },
+                { name: "Power BI", level: "intermediate" },
+                { name: "Plotly / Dash", level: "intermediate" },
+              ]}
+            />
+
+            <SkillCategory
+              title="Backend & APIs"
+              skills={[
+                { name: "FastAPI", level: "beginner" },
+                { name: "REST API Design", level: "beginner" },
                 { name: "OAuth2 / Authentication", level: "intermediate" },
               ]}
             />
 
             <SkillCategory
-              title="Frontend Development"
+              title="Frontend"
               skills={[
-                { name: "React", level: "intermediate" },
+                { name: "React", level: "beginner" },
                 { name: "Next.js", level: "beginner" },
                 { name: "Tailwind CSS", level: "intermediate" },
-                { name: "Plotly / Dash", level: "advanced" },
               ]}
             />
 
@@ -76,9 +98,10 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Interests</h2>
           <div className="space-y-4 text-foreground/80">
             <p>
-              Outside of coding, I enjoy watching anime (hence the analytics project!),
-              exploring new technologies, and continuously learning. I believe that
-              the best developers are those who stay curious and never stop improving.
+              Outside of work, I enjoy watching anime (hence the analytics project!),
+              exploring new technologies, and continuously learning. I'm always looking
+              for opportunities to apply data skills to personal interests — whether
+              that's analyzing viewing habits or building tools that scratch my own itch.
             </p>
           </div>
         </section>

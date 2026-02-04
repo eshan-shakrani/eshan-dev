@@ -10,9 +10,9 @@ export default function Home() {
             Hi, I'm Eshan
           </h1>
           <p className="text-xl sm:text-2xl text-foreground/70 max-w-2xl leading-relaxed">
-            A software developer who enjoys building tools and applications
-            that solve real problems. Currently focused on full-stack
-            development with Python and modern web technologies.
+            A data scientist who turns raw data into insights and builds the
+            tools to deliver them. Working toward understanding the full
+            lifecycle of data products — from pipelines to dashboards to APIs.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <Link
@@ -45,7 +45,7 @@ export default function Home() {
                 about viewing habits.
               </p>
               <div className="flex flex-wrap gap-2 pt-2">
-                {["Python", "FastAPI", "SQLite", "Plotly Dash"].map((tech) => (
+                {["Python", "SQL", "Pandas", "Plotly Dash"].map((tech) => (
                   <span
                     key={tech}
                     className="px-3 py-1 text-xs font-medium bg-foreground/5 rounded-full"
@@ -72,19 +72,19 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 gap-6">
           <div className="space-y-3">
             <h3 className="font-medium">Languages</h3>
-            <p className="text-foreground/70">Python, JavaScript, TypeScript, SQL</p>
+            <p className="text-foreground/70">Python, SQL, R, JavaScript</p>
           </div>
           <div className="space-y-3">
-            <h3 className="font-medium">Backend</h3>
-            <p className="text-foreground/70">FastAPI, REST APIs, PostgreSQL, SQLite</p>
+            <h3 className="font-medium">Data & Analytics</h3>
+            <p className="text-foreground/70">Pandas, SQLite, PostgreSQL, Data Modeling</p>
           </div>
           <div className="space-y-3">
-            <h3 className="font-medium">Frontend</h3>
-            <p className="text-foreground/70">React, Next.js, Tailwind CSS, Plotly</p>
+            <h3 className="font-medium">Dashboarding</h3>
+            <p className="text-foreground/70">Tableau, Looker, Power BI, Plotly Dash</p>
           </div>
           <div className="space-y-3">
             <h3 className="font-medium">Tools</h3>
-            <p className="text-foreground/70">Git, Docker, VS Code, Linux</p>
+            <p className="text-foreground/70">Git, VS Code, Linux, Docker</p>
           </div>
         </div>
       </section>
