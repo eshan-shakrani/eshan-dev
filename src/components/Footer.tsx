@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const socialLinks = [
   { href: "https://github.com/eshan-shakrani", label: "GitHub" },
   { href: "https://linkedin.com/in/eshan-shakrani-563924191", label: "LinkedIn" },
@@ -17,7 +15,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-6">
             {socialLinks.map((link) => (
-              <Link
+              <a
                 key={link.label}
                 href={link.href}
                 target={link.href.startsWith("http") ? "_blank" : undefined}
@@ -25,7 +23,7 @@ export default function Footer() {
                 className="text-sm text-foreground/60 hover:text-foreground transition-colors"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </div>
         </div>
