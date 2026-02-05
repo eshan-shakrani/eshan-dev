@@ -1,7 +1,7 @@
 const socialLinks = [
   { href: "https://github.com/eshan-shakrani", label: "GitHub" },
   { href: "https://linkedin.com/in/eshan-shakrani-563924191", label: "LinkedIn" },
-  { href: "mailto:ekshakrani@gmail.com", label: "Email" },
+  { href: "https://mail.google.com/mail/?view=cm&to=ekshakrani@gmail.com", label: "Email" },
 ];
 
 export default function Footer() {
