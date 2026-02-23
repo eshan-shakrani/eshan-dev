@@ -98,8 +98,9 @@ export default function AboutPage() {
           <h2 className="text-2xl font-semibold mb-4">Interests</h2>
           <div className="space-y-4 text-foreground/80">
             <p>
-              Outside of work, I enjoy watching anime (hence the analytics project!),
-              exploring new technologies, and continuously learning. I'm always looking
+              Outside of work, I enjoy cooking (and eating) good food, traveling the world,
+              exploring new technologies, and continuously learning. I also love watching TV shows,
+              movies, and anime (hence my project "Coming Up Next"). I'm always looking
               for opportunities to apply data skills to personal interests — whether
               that's analyzing viewing habits or building tools that scratch my own itch.
             </p>
