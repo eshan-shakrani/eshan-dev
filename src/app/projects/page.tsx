@@ -28,6 +28,7 @@ const projects: Project[] = [
       "Genre and studio analytics",
     ],
     github: "https://github.com/eshan/coming-up-next",
+    live: "coming-up-next-production-8258.up.railway.app",
     status: "in-progress",
   },
   // Add more projects here as you build them
@@ -60,7 +61,8 @@ export default function ProjectsPage() {
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">Projects</h1>
         <p className="text-lg text-foreground/70 max-w-2xl">
           A collection of projects I've built. Each one represents a learning
-          journey and an attempt to solve a real problem.
+          journey and an attempt to solve a real problem, or do a deep dive 
+          into an interest of mine. 
         </p>
       </div>
 
@@ -71,7 +73,16 @@ export default function ProjectsPage() {
             className="rounded-xl border border-foreground/10 p-6 sm:p-8"
           >
             <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
-              <h2 className="text-2xl font-semibold">{project.title}</h2>
+              <h2 className="text-2xl font-semibold">
+                {project.live ? (
+                  <Link href={project.live} target="_blank" rel="noopener noreferrer"
+                    className="hover:text-foreground/70 transition-colors">
+                    {project.title}
+                    </Link>
+                ) : (
+                  project.title
+                )}
+              </h2>
               <StatusBadge status={project.status} />
             </div>
 
