@@ -28,7 +28,7 @@ const projects: Project[] = [
       "Genre and studio analytics",
     ],
     github: "https://github.com/eshan/coming-up-next",
-    live: "coming-up-next-production-8258.up.railway.app",
+    live: "https://coming-up-next-production-8258.up.railway.app",
     status: "in-progress",
   },
   // Add more projects here as you build them
